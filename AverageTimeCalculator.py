@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import tkinter as tk
 from tkinter import messagebox
 from datetime import datetime, timedelta
@@ -109,9 +103,6 @@ avg_clock_canvas.grid(row=2, column=1, padx=10, pady=10)
 tk.Label(right_frame, text="Average Time").grid(row=3, column=1)
 
 root.mainloop()
-
-
-# In[ ]:
 
 
 
